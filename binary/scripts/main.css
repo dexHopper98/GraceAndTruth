@@ -1,0 +1,24 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Montserrat', helvetica, sans-serif;
+}
+.site-container{
+  padding: 10px 0;
+}
+a#site-logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #d43a3a;
+    line-height: 120%;
+}
+#footer{
+  text-align: center;
+  background-color: #607D8B;
+  color: #fff;
+}
+
+.ft-social{
+  font-size: 25px;
+}
