@@ -13,12 +13,79 @@ a#site-logo {
     color: #d43a3a;
     line-height: 120%;
 }
+.feature-photo{
+  background-image: url(../images/fgp_front_view.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+/*Feature boxes*/
+#feature-box-section{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.feature-box {
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
+.feature-box > a
+{
+    color: #607D8B;
+    font-size: 35px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #d7d7d7;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+}
+/*Feature sections*/
+.feat-section{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-height: 200px;
+}
+.section-header {
+    border-bottom: 2px solid #d43a3a;
+    display: inline-block;
+}
+#about-section {
+    background-color: #e1f0f2;
+}
+#quote-section {
+    background-color: #636365;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    color: #d7d733;
+    padding: 20px 10px;
+    border: 1px solid #878383;
+}
+/*Footer section*/
 #footer{
   text-align: center;
   background-color: #607D8B;
   color: #fff;
+  padding: 20px 10px;
 }
-
 .ft-social{
-  font-size: 25px;
+  padding-bottom: 5px;
+}
+.ft-social a i.fab {
+    padding: 10px 25px;
+    border-right: 1px solid #fff;
+    font-size: 25px;
+    color: #fff;
+}
+.ft-social a:first-child > i.fab{
+  border-left: 1px solid #fff;
+}
+.ft-divider{
+  border-top: 2px solid #5f5b5b;
+  height: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
