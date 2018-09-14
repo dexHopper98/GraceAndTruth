@@ -21,8 +21,8 @@ a#site-logo {
 }
 /*Feature boxes*/
 #feature-box-section{
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .feature-box {
     text-align: center;
@@ -49,18 +49,20 @@ a#site-logo {
   min-height: 200px;
 }
 .section-header {
-    border-bottom: 2px solid #d43a3a;
+    border-bottom: 2px solid #9eb625;
     display: inline-block;
+    font-style: italic;
 }
 #about-section {
-    background-color: #e1f0f2;
+    background-color: #08a4ba;
+    line-height: 30px;
 }
 #quote-section {
     background-color: #636365;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     font-style: italic;
-    color: #d7d733;
+    color: #daddd8;
     padding: 20px 10px;
     border: 1px solid #878383;
 }
