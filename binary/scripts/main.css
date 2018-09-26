@@ -7,11 +7,18 @@ body{
 .site-container{
   padding: 10px 0;
 }
+.fancy-script {
+  font-family: 'Dancing Script', cursive;
+}
 a#site-logo {
     font-family: 'Dancing Script', cursive;
     font-size: 2rem;
     color: #d43a3a;
     line-height: 120%;
+}
+.main-graphic{
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .feature-photo{
   background-image: url(../images/fgp_front_view.jpg);
@@ -42,30 +49,98 @@ a#site-logo {
     height: 80px;
     width: 80px;
 }
+#mission {
+    background-color: #3e1c1c;
+    color: #fff;
+    padding: 40px;
+}
 /*Feature sections*/
 .feat-section{
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 15px;
   min-height: 200px;
 }
 .section-header {
-    border-bottom: 2px solid #9eb625;
     display: inline-block;
-    font-style: italic;
 }
 #about-section {
-    background-color: #08a4ba;
+    background-color: #0aa4ba;
     line-height: 30px;
 }
+#about-section .ministry-header {
+    border-bottom: 1px solid #FFF7D4;
+    text-align: center;
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+.bios {
+    padding-bottom: 15px;
+}
+.bios .profile-box{
+  text-align: center;
+}
+.bios .pf-title {
+    display: block;
+    margin-bottom: 10px;
+    color: #EDE763;
+    font-size: 15px;
+}
+.bios .pf-photo{
+  display: inline-block;
+  border-radius: 70px;
+  width: 135px;
+  max-height: 150px;
+}
+
 #quote-section {
     background-color: #636365;
     font-size: 15px;
     text-align: center;
     font-style: italic;
-    color: #daddd8;
+    color: #6efaff;
     padding: 20px 10px;
     border: 1px solid #878383;
 }
+
+/*Service*/
+#service {
+    color: #fff;
+    min-height: 300px;
+    text-align: center;
+}
+#service .section-header {
+  text-decoration: underline;
+}
+#service .container{
+    background-color: #26000a99;
+    opacity: 0.9;
+    padding: 10px 0;
+}
+#service.main-graphic {
+    background-image: url(../images/crosses-praise.jpg);
+    background-attachment: fixed;
+}
+.time-wrapper {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.connect-icons {
+    font-size: 1.5rem;
+}
+.connect-icons a {
+    padding: 5px;
+    margin-right: 8px;
+}
+
+/*give section*/
+#give{
+  background-color: #0aa4ba;
+  color: #fff;
+}
+
 /*Footer section*/
 #footer{
   text-align: center;
