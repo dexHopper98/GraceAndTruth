@@ -4,6 +4,11 @@ body{
   font-size: 14px;
   font-family: 'Montserrat', helvetica, sans-serif;
 }
+input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .site-container{
   padding: 10px 0;
 }
@@ -64,7 +69,7 @@ a#site-logo {
     display: inline-block;
 }
 #about-section {
-    background-color: #0aa4ba;
+    background-color: #3dbdd1;
     line-height: 30px;
 }
 #about-section .ministry-header {
@@ -83,8 +88,10 @@ a#site-logo {
 .bios .pf-title {
     display: block;
     margin-bottom: 10px;
-    color: #EDE763;
-    font-size: 15px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: underline;
+    line-height: 25px;
 }
 .bios .pf-photo{
   display: inline-block;
@@ -93,14 +100,16 @@ a#site-logo {
   max-height: 150px;
 }
 
-#quote-section {
-    background-color: #636365;
-    font-size: 15px;
+.quote-box {
+    border: 2px solid #fff;
+    margin: 10px 0 30px;
+    padding: 12px;
+    box-shadow: 5px 15px #32312d;
+    border-radius: 10px;
+    font-size: 1.4rem;
     text-align: center;
     font-style: italic;
-    color: #6efaff;
-    padding: 20px 10px;
-    border: 1px solid #878383;
+    font-family: Times new roman, serif;
 }
 
 /*Service*/
@@ -139,6 +148,44 @@ a#site-logo {
 #give{
   background-color: #0aa4ba;
   color: #fff;
+}
+.give-button
+{
+      border-radius: 50px;
+      background-color: green;
+      padding: 10px;
+      margin-bottom: 10px;
+      display: inline-block;
+}
+.give-heart{
+  color: #68f968;
+}
+.quote-box {
+    border: 2px solid #fff;
+    margin: 10px 0 30px;
+    padding: 12px;
+    box-shadow: 5px 15px #32312d;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+    font-style: italic;
+    font-family: Times new roman, serif;
+
+}
+#give a.mailto {
+    color: #baea1d;
+
+}
+#quote-section {
+
+    background-color: #f6f6f6;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    color: #00798d;
+    padding: 20px 10px;
+    border: 1px solid #dbd5ed;
+    padding: 20px 0;
 }
 
 /*Footer section*/
