@@ -21,6 +21,10 @@ a#site-logo {
     color: #d43a3a;
     line-height: 120%;
 }
+span.req{
+  color: red;
+  font-weight: bold;
+}
 .main-graphic{
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,7 +59,7 @@ a#site-logo {
     width: 80px;
 }
 #mission {
-    background-color: #3e1c1c;
+    background-color: #361919;
     color: #fff;
     padding: 40px;
 }
@@ -68,11 +72,11 @@ a#site-logo {
 .section-header {
     display: inline-block;
 }
-#about-section {
-    background-color: #3dbdd1;
+#about {
+    background-color: #0aa4ba;
     line-height: 30px;
 }
-#about-section .ministry-header {
+#about .ministry-header {
     border-bottom: 1px solid #FFF7D4;
     text-align: center;
     font-size: 2.2rem;
@@ -163,7 +167,7 @@ a#site-logo {
 .quote-box {
     border: 2px solid #fff;
     margin: 10px 0 30px;
-    padding: 12px;
+    padding: 10px;
     box-shadow: 5px 15px #32312d;
     border-radius: 10px;
     font-size: 1.4rem;
@@ -176,24 +180,33 @@ a#site-logo {
     color: #baea1d;
 
 }
-#quote-section {
 
-    background-color: #f6f6f6;
+/*Contact section*/
+.contact-form input, .contact-form textarea {
+    max-width: 100%;
+    border: 1px solid #829295;
+    border-radius: 8px;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#quote-section {
+    background-color: #607D8B;
     font-size: 15px;
     text-align: center;
     font-style: italic;
-    color: #00798d;
+    color: #eae6e6;
     padding: 20px 10px;
     border: 1px solid #dbd5ed;
     padding: 20px 0;
 }
 
 /*Footer section*/
-#footer{
-  text-align: center;
-  background-color: #607D8B;
-  color: #fff;
-  padding: 20px 10px;
+#footer {
+    text-align: center;
+    color: #e3dede;
+    padding: 30px 10px;
+    background-color: #333131;
 }
 .ft-social{
   padding-bottom: 5px;
@@ -202,7 +215,7 @@ a#site-logo {
     padding: 10px 25px;
     border-right: 1px solid #fff;
     font-size: 25px;
-    color: #fff;
+    color: #a1dce6;
 }
 .ft-social a:first-child > i.fab{
   border-left: 1px solid #fff;
